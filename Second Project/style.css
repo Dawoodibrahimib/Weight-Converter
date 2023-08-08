@@ -1,0 +1,122 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body
+{
+    background: linear-gradient(90deg, rgba(9,21,124,1) 24%, rgba(9,18,127,1) 38%, rgba(2,0,36,1) 100%, rgba(9,121,25,1) 100%, rgba(0,212,255,1) 100%);
+   
+}
+.Container-1
+{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 450px;
+    width: 600px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    
+}
+.Main
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+
+}
+.Container-2
+{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Input1
+{
+    margin-top: 40px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    background-color: aliceblue;
+
+}
+.Second
+{
+    color: aliceblue;
+    position:relative;
+    left: 26rem;
+    top: 6rem;
+}
+.Sub-Container-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.Btn1 {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #212121;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .Btn1 span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color: #212121;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #fff;
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+  .Btn1 span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  .Btn1 span:not(hover) {
+    transition: all 0.2s;
+  }
+  .Btn1 span:active
+  {
+    transition: all 0.5s;
+  }
+  .Second1
+  {
+    color: #fff;
+    font-size: 60px;
+    font-style: italic;
+    position:relative;
+    bottom: 50px;
+
+  }
+  .Second2
+  {
+    position: relative;
+    bottom: 160px;
+    left: 160px;
+    font-size: 60px;
+    color: #fff;
+    font-style: italic;
+
+  }
